@@ -1,0 +1,5 @@
+mediapipe==0.10.8 
+torch==2.1.0
+line-bot-sdk==3.5.1
+google-api-python-client==2.64.0
+opencv-python==4.8.1.78

@@ -1,0 +1,38 @@
+创建虚拟环境：打开命令提示符或终端，导航到你想要创建虚拟环境的目录。然后使用以下命令：
+   ```bash
+   python -m venv gaze_env
+   ```
+   这将在你选择的目录中创建一个名为`gaze_env`的新目录，其中包含了Python解释器、标准库和各种支持文件。
+
+激活虚拟环境：要使用虚拟环境，你需要激活它。激活命令根据你的操作系统而有所不同：
+   - 在Windows中，运行：
+     ```bash
+     gaze_env\Scripts\activate
+     ```
+   - 在Unix或MacOS中，运行：
+     ```bash
+     source gaze_env/bin/activate
+     ```
+   激活后，你的命令提示符将会改变，以表明你现在在`gaze_env`虚拟环境中工作。
+
+克隆GazeTracking仓库：如果GazeTracking项目不在PyPI上可用，你需要从GitHub克隆它。导航到你想克隆项目的地方，运行：
+   ```bash
+   git clone https://github.com/antoinelame/GazeTracking.git
+   ```
+   然后进入克隆的目录：
+   ```bash
+   cd GazeTracking
+   ```
+
+安装依赖：安装GazeTracking项目所需的任何依赖项。这些通常列在`requirements.txt`文件中。可以使用以下命令安装：
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+运行GazeTracking项目：按照GazeTracking项目文档中的说明运行项目。通常涉及执行Python脚本。
+    python example.py
+停用虚拟环境：完成后，可以通过输入以下命令停用虚拟环境：
+   ```bash
+   deactivate
+   ```
+
